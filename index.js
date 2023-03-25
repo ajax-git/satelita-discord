@@ -113,8 +113,6 @@ client.on('message', async message => {
   ];
 
   const all_messagesWebhook = new Discord.WebhookClient(all_messages[0], all_messages[1]);
-  const generalWebhook = new Discord.WebhookClient(general[0], general[1]);
-  const dev_plWebhook = new Discord.WebhookClient(dev_pl[0], dev_pl[1]);
 
   var image = ''
   var imgLine = '';
